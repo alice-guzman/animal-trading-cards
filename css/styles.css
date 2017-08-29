@@ -1,0 +1,55 @@
+/* add your CSS here */
+body, p, h1, h2, h3, h4, h5, h6, span, div, ul li {
+  margin: 0;
+  padding: 0;
+  font-family: inherit;
+  font-size: auto;
+}
+body {
+  background: #d3d3d3 url('../images/background.jpg') top right repeat;
+  padding: 0;
+}
+
+#container {
+  background: #fff;
+  margin: 0px auto 0px auto;
+  padding: 10px 0px;
+  width: 360px;
+}
+
+.trading-cards {
+  border: 1px solid darkgrey;
+  -webkit-box-shadow: 5px 5px 5px 0px rgba(227,225,223,1);
+  -moz-box-shadow: 5px 5px 5px 0px rgba(227,225,223,1);
+  box-shadow: 5px 5px 5px 0px rgba(227,225,223,1);
+  border-radius: 5px;
+  margin: auto;
+  padding: 20px 15px;
+  width: 300px;
+}
+
+.trading-cards h3{
+  font-size: 22px;
+  margin-bottom: 20px;
+}
+
+.animal-info {
+  border: 1px solid darkgrey;
+  font-size: 14px;
+  margin-top: 10px;
+  padding: 15px 10px;
+}
+
+.animal-info ul {
+  padding-left: 0;
+}
+.animal-info li {
+  list-style-type: none;
+}
+.animal-info span {
+  font-weight: bold;
+}
+
+.int-fact {
+  font-style: italic;
+}
